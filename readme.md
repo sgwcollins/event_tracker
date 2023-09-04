@@ -6,6 +6,7 @@ This project servers as a full e
 
 - Node.js (v14+ recommended)
 - MongoDB (local or remote)
+- Docker(local)
 - npm or yarn
 
 ## 🚀 Getting Started
@@ -15,25 +16,29 @@ This project servers as a full e
 
 ```bash
 git clone [your-repository-url] events-tracker
-cd events-tracker```
+cd events-tracker
+```
 
-
-### 2. Set up backend
+### 1. Set up backend
 
 ```bash
 cd server
-npm install
+follow instructions in /server/Readme.md
 ```
 
-### 4. Set up MongoDB
+### 2. use event tracking script
+*note before following this step ensure backend is running
 ```bash
-docker-compose build db
-docker-compose up db
+cd event_tracking_script/examples
+view index.html in browser and track the logs
+ensure backend in running on port 4000 
 ```
 
-
-### 5. Opinal Seed Sample Events
+### 3. use event tracking script
+*note before following this step ensure backend is running
 ```bash
-npm run seed
+cd client
+npm i
+npm run test
+npm run start
 ```
-# event_tracker
