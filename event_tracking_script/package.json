@@ -1,0 +1,25 @@
+{
+  "name": "event_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --silent=false",
+    "build": "webpack"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.2",
+    "jest-environment-jsdom": "^29.6.4",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "node-fetch": "^3.3.2"
+  }
+}
