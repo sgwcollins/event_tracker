@@ -43,3 +43,11 @@ npm run test
 npm run start
 ```
 
+### Things that could be improved with more time to make scalable
+    -Apache Kafka can help by decoupling producer and consumer logic
+    -Streaming would be beneficial for the CSV import as the data is sent in chunks  
+    -Use load balancers to distribute incoming traffic across multiple servers.
+    -A caching solutions like Redis or Memcached to cache frequently accessed data and reduce database read operations
+    
+
+
