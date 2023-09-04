@@ -1,6 +1,6 @@
-# Events Backend
+# Events Tracker with Management
 
-This project servers as a full e
+This project is an Event Tracker, this tool has script to track page views and custom events. There is also a dashboard to view all events with two default charts
 
 ## 📋 Requirements
 
@@ -42,3 +42,4 @@ npm i
 npm run test
 npm run start
 ```
+
